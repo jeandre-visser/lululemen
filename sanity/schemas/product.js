@@ -16,7 +16,7 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string'
-    }.
+    },
     {
       name: 'slug',
       title: 'Slug',
