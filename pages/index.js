@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image';
+import { client } from '../lib/client';
 import { Banner, BannerFooter, Product } from '../components';
 
 export default function Home() {
