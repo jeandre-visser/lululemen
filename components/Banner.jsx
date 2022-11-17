@@ -1,21 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import { images } from '../constants/index';
+import Image from 'next/image'
 
 const Banner = () => {
   return (
     <div className="banner-container">
       <div>
-        <p className="metal-vent">TEXT</p>
-        <h3>MID</h3>
-        <img src="" alt="metal-vent-shirt" className="banner-image" />
+        <p className="banner-small-text">Athletic Apparel</p>
+        <h1>lululemen</h1>
+        <h3>For Him</h3>
+        <Image src={images.logo} alt="banner-image" className="banner-image" />
         <div>
           <Link href="/product/id" >
-            <button type="button" >BUTTON</button>
+            <button type="button" >EXPLORE PRODUCTS</button>
           </Link>
-          <div className="desc">
-            <h5>DESC</h5>
-            <p>description</p>
-          </div>
         </div>
       </div>
     </div>
