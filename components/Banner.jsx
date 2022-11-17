@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="banner-container">
       <div>
-        <p className="banner-small-text">Athletic Apparel</p>
+        <p>Athletic Apparel</p>
         <h1>lululemen</h1>
         <h3>For Him</h3>
         <Image src={images.logo} alt="banner-image" className="banner-image" />
