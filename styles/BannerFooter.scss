@@ -10,11 +10,13 @@
   color: #FFF;
   width: 100%;
   margin: 120px auto 30px;
+  
 
   img {
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     max-width: 1200px;
     object-fit: scale-down;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
   }
   
   h1 {
@@ -31,49 +33,22 @@
   }
 }
 
-.banner-desc {
+.footnote {
   display: flex;
-  justify-content: space-between;
-}
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  padding: 1rem 0;
 
-.banner-desc button {
-  border-radius: 15px;
-  padding: 10px 16px;
-  background-color: white;
-  color: red;
-  border: none;
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-}
+  svg {
+    position: relative;
+    top: 3px
+  }
 
-.banner-desc .left h3{
-  font-weight: 900;
-  font-size: 80px;
-  margin-left: 25px;
-}
-.banner-desc .left p{
-  margin:18px;
-}
-.banner-footer-image{
-  position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
-}
-.banner-desc .right{
-  line-height: 1.4;
-}
-.banner-desc .right h3{
-  font-weight: 800;
-  font-size: 60px;
-}
-.banner-desc .right p{
-  font-size: 18px;
-}
-.banner-desc .right .company-desc{
-  font-size: 14px;
-  font-weight: 300;
+  img {
+    margin-left: 1rem;
+    width: 40px;
+    height: auto;
+  }
 }
