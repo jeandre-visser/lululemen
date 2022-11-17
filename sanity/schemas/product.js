@@ -4,10 +4,10 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'iage',
+      name: 'image',
       title: 'Image',
       type: 'array',
-      of: [{ type: 'image'}],
+      of: [{ type: 'image' }],
       options: {
         hotspot: true
       }
