@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image';
 import { client } from '../lib/client';
 import { Banner, BannerFooter, Product } from '../components';
 
@@ -18,7 +17,9 @@ export default function Home({ products }) {
       </div>
 
       <div className="products-container">
-        {["Shirt", "Shorts", "Jogger"].map((item) => item)}
+        {products?.map((product) => 
+          <Product key={product._id} product={product} />
+        )}
       </div>
       <BannerFooter />
     </div>
