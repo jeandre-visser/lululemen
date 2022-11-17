@@ -1,0 +1,79 @@
+.banner-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 40px;
+  background-color: var(--red-color);
+  position: relative;
+  height: 670px;
+  line-height: 1; 
+  color: #FFF;
+  width: 100%;
+  margin: 120px auto 30px;
+
+  img {
+    border-radius: 1rem;
+    max-width: 1200px;
+    object-fit: scale-down;
+  }
+  
+  h1 {
+    width: 1200px;
+    position: absolute;
+    z-index: 100;
+    font-size: 5.5rem;
+    -webkit-text-stroke: 0.2px #FFF;
+    font-weight: bolder;
+    color: transparent;
+    word-wrap: break-word;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.banner-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-desc button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: white;
+  color: red;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.banner-desc .left h3{
+  font-weight: 900;
+  font-size: 80px;
+  margin-left: 25px;
+}
+.banner-desc .left p{
+  margin:18px;
+}
+.banner-footer-image{
+  position: absolute;
+  /* top: -35%;
+  left: 8%; */
+  top: -25%;
+  left: 25%;
+}
+.banner-desc .right{
+  line-height: 1.4;
+}
+.banner-desc .right h3{
+  font-weight: 800;
+  font-size: 60px;
+}
+.banner-desc .right p{
+  font-size: 18px;
+}
+.banner-desc .right .company-desc{
+  font-size: 14px;
+  font-weight: 300;
+}
