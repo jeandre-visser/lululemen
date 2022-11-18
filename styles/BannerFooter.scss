@@ -1,11 +1,12 @@
 .banner-footer-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 100px 40px;
   background-color: var(--red-color);
   position: relative;
-  height: 670px;
+  height: 720px;
   line-height: 1; 
   color: #FFF;
   width: 100%;
@@ -30,6 +31,24 @@
     word-wrap: break-word;
     text-align: center;
     text-transform: uppercase;
+  }
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 1.5rem;
+  
+  h2 {
+    margin-right: 0.5rem;
+  }
+
+  svg {
+    position: relative;
+    margin: 0 5px;
+    bottom: 3px;
   }
 }
 
