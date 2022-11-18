@@ -20,6 +20,10 @@ const BannerFooter = () => {
         <Image src={images.footnote} alt='logo' className="footer-logo" />
         <p><RiCopyrightFill fontSize={18} /> 2022 Lululemen <br/>All Rights Reserved</p>
       </div>
+      <div className="lulu">
+        <h3>Inspired by</h3>
+        <Image src={images.lulu} alt='lulu' />
+      </div>
     </>
     )
     

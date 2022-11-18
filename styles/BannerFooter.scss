@@ -71,3 +71,21 @@
     height: auto;
   }
 }
+
+.lulu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 7px;
+  align-items: center;
+  padding: 0 1rem 1rem;
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    width: 35px;
+    height: auto;
+  }
+}
